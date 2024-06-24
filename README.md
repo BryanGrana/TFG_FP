@@ -41,12 +41,13 @@ Ejecuta la aplicación desde tu IDE.
 - README.md: Este archivo.
 
 ## Contribuciones
-¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos para contribuir:
-Realiza un fork del repositorio.
-Crea una nueva rama para tu funcionalidad (git checkout -b nueva-funcionalidad).
-Realiza los cambios necesarios y realiza commit (git commit -m 'Añadir nueva funcionalidad').
-Empuja los cambios a tu rama (git push origin nueva-funcionalidad).
-Crea un Pull Request en GitHub.
+¡Las contribuciones son bienvenidas! 
+####Por favor, sigue los siguientes pasos para contribuir:
+- Realiza un fork del repositorio.
+- Crea una nueva rama para tu funcionalidad (git checkout -b nueva-funcionalidad).
+- Realiza los cambios necesarios y realiza commit (git commit -m 'Añadir nueva funcionalidad').
+- Empuja los cambios a tu rama (git push origin nueva-funcionalidad).
+- Crea un Pull Request en GitHub.
 
 ## Autor
 Bryan Graña Martínez
