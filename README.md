@@ -39,7 +39,42 @@ Ejecuta la aplicación desde tu IDE.
 - main/resources/: Archivos de recursos y configuración.
 - lib/: Librerías necesarias para la ejecución.
 - README.md: Este archivo.
+## Base de datos
+```
+-- Create Worker table
+CREATE TABLE Workers (
+ ID INT AUTO_INCREMENT PRIMARY KEY,
+ Image_Path VARCHAR(255) NOT NULL,
+ First_Name VARCHAR(25) NOT NULL,
+ Last_Name VARCHAR(50) NOT NULL,
+ Email VARCHAR(100),
+ Date_of_Birth DATE NOT NULL,
+ Phone VARCHAR(9) NOT NULL CHECK (Phone REGEXP '^[0-9]{9}$'),
+ Address VARCHAR(100) NOT NULL
+);
 
+-- Create Projects table
+CREATE TABLE Projects (
+ ID INT AUTO_INCREMENT PRIMARY KEY,
+ Name VARCHAR(100) NOT NULL,
+ Description VARCHAR(255) NOT NULL,
+ Budget DECIMAL(10,2),
+ Start_Date DATE NOT NULL,
+ End_Date DATE
+);
+
+-- Create project_worker relationship table with composite primary key
+CREATE TABLE project_worker (
+ Worker_ID INT,
+ Project_ID INT,
+ Role ENUM('Leader','Member','Collaborator') DEFAULT 'Member',
+ Assigned_Hours_Per_Week TINYINT CHECK (Assigned_Hours_Per_Week BETWEEN 0 AND 40),
+ Assignment_Date DATE DEFAULT CURRENT_TIMESTAMP,
+ FOREIGN KEY (Worker_ID) REFERENCES Workers(ID) ON UPDATE CASCADE ON DELETE NO ACTION,
+ FOREIGN KEY (Project_ID) REFERENCES Projects(ID) ON UPDATE CASCADE ON DELETE NO ACTION,
+ PRIMARY KEY (Worker_ID, Project_ID)
+);
+```
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! 
 #### Por favor, sigue los siguientes pasos para contribuir:
