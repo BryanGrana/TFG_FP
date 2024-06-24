@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bajas</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        object {
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .param-text {
+            font-size: x-large;
+            font-weight: normal;
+            font-style: normal;
+            color: blue;
+        }
+
+        .param-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .param-container:before {
+            content: attr(data-text) ": ";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .param-container .param-text {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Bajas</h1>
+    <div>
+    A la hora de hacer <b>bajas</b> de trabajadores o de proyectos, elegir que trabajador queremos dar de baja, pulsar click derecho del ratón y darle a la opción que pone <b>eliminar</b>.
+    </div>
+</body>
+</html>

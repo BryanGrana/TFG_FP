@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Asignar proyecto</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 50%; /* Ajustar el ancho de la imagen al 50% del tamaño del contenedor */
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        div::before {
+            content: counter(item) ".- ";
+            counter-increment: item;
+            font-weight: bold;
+            color: #0066cc; /* Azul */
+        }
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+   <body>
+     <h1>Asignar Proyecto</h1>
+      <p>En la página principal encontrarás diferentes campos de texto mostrados en la siguiente imagen:</p>
+	    <img src="../imagenesAyuda/asignarProyecto.png">
+	    <div>1.- Combo con todos los trabajadores disponibles. Al cambiar el trabajador seleccionado los proyectos cambiarán y solo aparecerán los proyectos a los cuales no ha sido asignado dicho trabajador.</div>
+	    <div>2.- Proyectos a los cuales el trabajador no ha sido asignado.</div>
+	    <div>3.- Puesto del trabajador en dicho proyecto.</div>
+	    <div>4.- Horas semanales asignadas a dicho proyecto, no pueden ser superiores a 40.</div>
+	    <div>5.- Botón para aceptar y asignar el proyecto al trabajador.</div>
+	    <div>6.- Botón para cancelar la asignación y salir del formulario.</div>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Actualizar proyecto</title>
+        <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 50%; /* Ajustar el ancho de la imagen al 50% del tamaño del contenedor */
+        }
+
+        div {
+            margin-bottom: 10px;
+        }
+
+        div::before {
+            content: counter(item) ".- ";
+            counter-increment: item;
+            font-weight: bold;
+            color: #0066cc; /* Azul */
+        }
+    </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     <h1>Actualizar Proyecto</h1>
+      <p>En la página principal encontrarás diferentes campos de texto mostrados en la siguiente imagen:</p>
+	    <img src="../imagenesAyuda/actualizarProyecto.png">
+	    <div>1.- Nombre del proyecto.</div>
+	    <div>2.- Breve descripción de lo que tratará el proyecto.</div>
+	    <div>3.- Presupuesto del proyecto, siempre superior a 0.</div>
+	    <div>4.- Tabla con todos los proyectos, al seleccionar uno, se cargarán los datos del mismo en el formulario, activando los campos.</div>
+	    <div>5.- Fecha de inicio del proyecto.</div>
+	    <div>6.- Fecha de fin del proyecto.</div>
+	    <div>7.- Botón para aceptar y realizar la actualización del proyecto</div>
+	    <div>8.- Botón para cancelar la actualización y salir de esta ventana.</div>
+	</body>
+</html>

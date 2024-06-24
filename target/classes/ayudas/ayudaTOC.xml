@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<toc version="1.0">  
+        <tocitem text="Ayuda WorkFlow Hub" target="consola" expand=true>  
+        
+            <tocitem text="Altas" target="altas" expand=false>  
+                <tocitem text="Trabajador" target="altaTrabajador"/> 
+                <tocitem text="Proyecto" target="altaProyecto"/>                   
+            </tocitem>
+            
+            <tocitem text="Bajas" target="bajas" expand=false>  
+                <tocitem text="Trabajador" target="bajaTrabajador"/>
+                <tocitem text="Proyecto" target="bajaProyecto"/>
+            </tocitem>
+            
+             <tocitem text="Actualizaciones" target="actus" expand=false>  
+                <tocitem text="Trabajador" target="actuTrabajador"/>
+                <tocitem text="Proyecto" target="actuProyecto"/>
+            </tocitem>
+            
+            <tocitem text="Asignar" target="asignar" expand=false>  
+                <tocitem text="Asignar proyecto" target="asignarProyecto"/>
+            </tocitem>
+                        
+        </tocitem>
+</toc> 

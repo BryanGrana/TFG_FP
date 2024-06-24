@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<map version="1.0">  
+	
+	<mapID target="alta" url="paginas/alta.html"/>  
+	<mapID target="baja" url="paginas/baja.html"/>  
+	<mapID target="actu" url="paginas/actu.html"/>  
+	
+    <mapID target="consola" url="paginas/consola.html"/> 
+     
+    <mapID target="altaTrabajador" url="paginas/altaTrabajador.html"/>
+    <mapID target="altaProyecto" url="paginas/altaProyecto.html"/>
+    
+    <mapID target="bajaTrabajador" url="paginas/bajaTrabajador.html"/>
+    <mapID target="bajaProyecto" url="paginas/bajaProyecto.html"/>
+    
+    <mapID target="actuTrabajador" url="paginas/actualizarTrabajador.html"/>
+    <mapID target="actuProyecto" url="paginas/actualizarProyecto.html"/>
+	
+	<mapID target="asignarProyecto" url="paginas/asignarProyecto.html"/>
+    
+</map>

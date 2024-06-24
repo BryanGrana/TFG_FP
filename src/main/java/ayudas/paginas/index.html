@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayuda general</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        object {
+            display: inline-block;
+            margin: 5px 0;
+        }
+
+        .param-text {
+            font-size: x-large;
+            font-weight: normal;
+            font-style: normal;
+            color: blue;
+        }
+
+        .param-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .param-container:before {
+            content: attr(data-text) ": ";
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .param-container .param-text {
+            margin-left: 5px;
+        }
+    </style>
+</head>
+<body>
+    <p>Página principal de la ayuda, aquí podrás encontrar ayuda referente a todo el aplicativo, desde:</p>
+    <div class="param-container" data-text="Altas">
+        <object classid="java:com.sun.java.help.impl.JHSecondaryViewer">
+            <param name="id" value="altas">
+            <param name="viewerActivator" value="javax.help.LinkLabel">
+            <param name="viewerStyle" value="javax.help.SecondaryWindows">
+            <param name="viewerSize" value="500,400">
+            <param class="param-text" name="text" value="Altas">
+            <param class="param-text" name="textFontFamily" value="Dialog">
+            <param class="param-text" name="textFontSize" value="x-large">
+            <param class="param-text" name="textFontWeight" value="plain">
+            <param class="param-text" name="textFontStyle" value="plain">
+            <param class="param-text" name="textColor" value="blue">
+            <param name="viewerLocation" value="10,10">
+        </object>
+    </div>
+    
+    <div class="param-container" data-text="Bajas">
+        <object classid="java:com.sun.java.help.impl.JHSecondaryViewer">
+            <param name="id" value="bajas">
+            <param name="viewerActivator" value="javax.help.LinkLabel">
+            <param name="viewerStyle" value="javax.help.SecondaryWindows">
+            <param name="viewerSize" value="500,400">
+            <param class="param-text" name="text" value="Bajas">
+            <param class="param-text" name="textFontFamily" value="Dialog">
+            <param class="param-text" name="textFontSize" value="x-large">
+            <param class="param-text" name="textFontWeight" value="plain">
+            <param class="param-text" name="textFontStyle" value="plain">
+            <param class="param-text" name="textColor" value="blue">
+            <param name="viewerLocation" value="10,10">
+        </object>
+    </div>
+
+    <div class="param-container" data-text="Actualizaciones">
+        <object classid="java:com.sun.java.help.impl.JHSecondaryViewer">
+            <param name="id" value="actus">
+            <param name="viewerActivator" value="javax.help.LinkLabel">
+            <param name="viewerStyle" value="javax.help.SecondaryWindows">
+            <param name="viewerSize" value="500,400">
+            <param class="param-text" name="text" value="Actualizaciones">
+            <param class="param-text" name="textFontFamily" value="Dialog">
+            <param class="param-text" name="textFontSize" value="x-large">
+            <param class="param-text" name="textFontWeight" value="plain">
+            <param class="param-text" name="textFontStyle" value="plain">
+            <param class="param-text" name="textColor" value="blue">
+            <param name="viewerLocation" value="10,10">
+        </object>
+    </div>
+
+    <div class="param-container" data-text="Asignar proyectos">
+        <object classid="java:com.sun.java.help.impl.JHSecondaryViewer">
+            <param name="id" value="asignarProyecto">
+            <param name="viewerActivator" value="javax.help.LinkLabel">
+            <param name="viewerStyle" value="javax.help.SecondaryWindows">
+            <param name="viewerSize" value="500,400">
+            <param class="param-text" name="text" value="Asignar proyectos">
+            <param class="param-text" name="textFontFamily" value="Dialog">
+            <param class="param-text" name="textFontSize" value="x-large">
+            <param class="param-text" name="textFontWeight" value="plain">
+            <param class="param-text" name="textFontStyle" value="plain">
+            <param class="param-text" name="textColor" value="blue">
+            <param name="viewerLocation" value="10,10">
+        </object>
+    </div>
+</body>
+</html>
