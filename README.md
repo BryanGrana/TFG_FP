@@ -42,7 +42,7 @@ Ejecuta la aplicación desde tu IDE.
 
 ## Contribuciones
 ¡Las contribuciones son bienvenidas! 
-####Por favor, sigue los siguientes pasos para contribuir:
+#### Por favor, sigue los siguientes pasos para contribuir:
 - Realiza un fork del repositorio.
 - Crea una nueva rama para tu funcionalidad (git checkout -b nueva-funcionalidad).
 - Realiza los cambios necesarios y realiza commit (git commit -m 'Añadir nueva funcionalidad').
