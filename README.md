@@ -89,3 +89,6 @@ Bryan Graña Martínez
 ## Contacto
 Para cualquier duda o sugerencia, contáctame por correo electrónico:
 - [Email](mailto:bryangranamartinez@gmail.com)
+# Nota Importante
+- **Importante:** Para la completa utilización de la aplicación necesita crear un servidor FTP, XAMPP y su propio FTP fueron usados en las pruebas de esta aplicación.
+- **Recomendado:** Se recomienda el uso de ubuntu pare gestionar el servidor MySQL o MaríaDB y el servidor FTP.
